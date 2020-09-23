@@ -1,0 +1,7 @@
+
+Private Sub Form_Load()
+'WebBrowser1.Height = frmweb.Height - 100
+'WebBrowser1.Width = frmweb.Width - 100
+WebBrowser1.Navigate App.Path & "\help\index.html"
+ShockwaveFlash1.Movie = App.Path & "\1.swf"
+End Sub
